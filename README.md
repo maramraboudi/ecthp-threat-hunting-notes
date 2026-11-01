@@ -1,22 +1,17 @@
-# Cyber Threat Intelligence & Threat Hunting Study Guide
+# eCTHP v2 Study Guide: Cyber Threat Intelligence and Threat Hunting
 
 ![eCTHP v2 certification badge](assets/ecthp-v2-badge.png)
 
-An independent, structured set of study notes that connects the CTI lifecycle to practical defensive threat hunting, including topics useful when preparing for INE's eCTHP certification. It is organized as a course: foundations, collection and analysis, hunting methods, network and endpoint investigations, and an integrated capstone.
+These independent eCTHP v2 study notes are for learners preparing for the Certified Threat Hunting Professional (eCTHP) certification and anyone building practical skills in cyber threat intelligence (CTI) and defensive threat hunting. The course moves from SOC and CTI foundations through collection and analysis, then applies that knowledge to hunt hypotheses, network and endpoint evidence, and an integrated capstone. It includes 18 lessons, original practice questions, and a synthetic-data lab.
 
 > **Unofficial study aid.** This project is not created by, affiliated with, or endorsed by INE or any certification provider. Certification names and marks belong to their respective owners. Verify current exam objectives, eligibility, and course content with [INE](https://ine.com/learning/certifications). These notes do not reproduce the supplied course PDFs or provide exam answers.
 
-## Start here
+## Choose a starting point
 
-- [Course map and learning outcomes](course/INDEX.md)
-- [Study plan](course/00-study-plan.md)
-- [CTI foundations](course/01-soc-and-cti-foundations.md)
-- [Threat hunting fundamentals](course/10-threat-hunting-fundamentals.md)
-- [CTI-to-hunt workflow](course/12-intelligence-driven-hunting.md)
-- [eCTHP-focused study crosswalk](course/17-ecthp-study-crosswalk.md)
-- [Synthetic hunt lab](labs/README.md)
-- [Original practice questions](practice/README.md)
-- [References and source note](REFERENCES.md)
+- **New to CTI or threat hunting?** Start with the [study plan](course/00-study-plan.md), then follow the [course map](course/INDEX.md) from the foundations onward.
+- **Preparing for eCTHP?** Use the [eCTHP-focused study crosswalk](course/17-ecthp-study-crosswalk.md) alongside the [threat-hunting lessons](course/10-threat-hunting-fundamentals.md). The crosswalk is a study aid, not an official exam blueprint.
+- **Ready to practice?** Work through the [synthetic hunt lab](labs/README.md), [original review questions](practice/README.md), and [integrated capstone](course/16-integrated-capstone.md).
+- **Looking up a topic?** Browse the full [course index and learning outcomes](course/INDEX.md).
 
 ## What you will learn
 
@@ -29,11 +24,11 @@ An independent, structured set of study notes that connects the CTI lifecycle to
 
 ## Suggested sequence
 
-1. Read the CTI foundation and lifecycle lessons.
-2. Work through collection, OSINT, standards, analysis, and dissemination.
-3. Study hunting strategy and hypothesis formation.
-4. Practice network and endpoint hunts using authorized lab data.
-5. Complete the capstone and original review questions; explain your reasoning before consulting the answer rationale.
+1. Learn the CTI foundations and intelligence lifecycle.
+2. Work through collection, OSINT, sharing standards, analysis, and dissemination.
+3. Study threat-hunting strategy and hypothesis formation.
+4. Practice network and endpoint investigations with authorized data.
+5. Complete the capstone and review questions, writing down your reasoning before reading the explanations.
 
 ## Safe use
 
@@ -46,6 +41,8 @@ All investigation exercises are defensive. Use synthetic data, public training d
 |-- README.md
 |-- REFERENCES.md
 |-- CONTRIBUTING.md
+|-- assets/
+|   `-- ecthp-v2-badge.png
 |-- labs/
 |   |-- README.md
 |   `-- synthetic-events.csv
@@ -67,7 +64,9 @@ All investigation exercises are defensive. Use synthetic data, public training d
 |   |-- 13-network-hunting.md
 |   |-- 14-endpoint-hunting.md
 |   |-- 15-analysis-detection-and-reporting.md
-|   `-- 16-integrated-capstone.md
+|   |-- 16-integrated-capstone.md
+|   |-- 17-ecthp-study-crosswalk.md
+|   `-- 18-glossary.md
 `-- practice/
     `-- README.md
 ```
