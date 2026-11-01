@@ -1,0 +1,15 @@
+timestamp,host,user,event_type,parent_process,process,remote_host,remote_port,change_ticket
+2026-10-12T08:02:11Z,WS-17,analyst1,process_start,explorer.exe,helpdesk-agent.exe,, ,CHG-1042
+2026-10-12T08:10:43Z,WS-17,analyst1,process_start,helpdesk-agent.exe,cmd.exe,,,CHG-1042
+2026-10-12T09:14:20Z,WS-22,svc-backup,process_start,services.exe,backup-agent.exe,, ,CHG-1088
+2026-10-12T09:18:01Z,WS-22,svc-backup,network_connection,backup-agent.exe,backup-agent.exe,updates.example.test,443,CHG-1088
+2026-10-12T10:01:07Z,WS-17,analyst1,process_start,explorer.exe,powershell.exe,,,
+2026-10-12T10:01:19Z,WS-17,analyst1,network_connection,powershell.exe,powershell.exe,198.51.100.24,443,
+2026-10-12T10:02:08Z,WS-17,analyst1,process_start,powershell.exe,conhost.exe,,,
+2026-10-12T10:17:33Z,WS-31,user2,authentication_failure,,, , ,
+2026-10-12T10:18:02Z,WS-31,user2,authentication_failure,,, , ,
+2026-10-12T10:18:56Z,WS-31,user2,authentication_success,,, , ,
+2026-10-12T10:25:41Z,SRV-04,svc-app,service_created,services.exe,inventory-service.exe,,,CHG-1120
+2026-10-12T10:26:15Z,SRV-04,svc-app,network_connection,inventory-service.exe,inventory-service.exe,repo.example.test,443,CHG-1120
+2026-10-12T11:44:09Z,WS-17,analyst1,process_start,explorer.exe,notepad.exe,,,
+2026-10-12T13:02:45Z,WS-22,svc-backup,process_start,services.exe,backup-agent.exe,,,CHG-1088
