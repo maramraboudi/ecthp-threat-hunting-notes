@@ -1,5 +1,7 @@
 # Cyber Threat Intelligence & Threat Hunting Study Guide
 
+![eCTHP v2 certification badge](assets/ecthp-v2-badge.png)
+
 An independent, structured set of study notes that connects the CTI lifecycle to practical defensive threat hunting, including topics useful when preparing for INE's eCTHP certification. It is organized as a course: foundations, collection and analysis, hunting methods, network and endpoint investigations, and an integrated capstone.
 
 > **Unofficial study aid.** This project is not created by, affiliated with, or endorsed by INE or any certification provider. Certification names and marks belong to their respective owners. Verify current exam objectives, eligibility, and course content with [INE](https://ine.com/learning/certifications). These notes do not reproduce the supplied course PDFs or provide exam answers.
